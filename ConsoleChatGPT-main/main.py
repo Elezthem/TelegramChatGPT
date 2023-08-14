@@ -1,7 +1,7 @@
 import openai
 import requests
 
-KEY = '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'
+KEY = 'KEY'
 
 # openai.api_key = KEY
 #
@@ -28,8 +28,8 @@ KEY = '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'
 import telebot
 import openai
 
-telegram_key = '6125916746:AAGoTr1ZPooXOdu-g2IgWO92XUQ8rJjTONs'
-openai.api_key = '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'
+telegram_key = 'TOKEN'
+openai.api_key = 'KEY'
 
 bot = telebot.TeleBot(telegram_key)
 
